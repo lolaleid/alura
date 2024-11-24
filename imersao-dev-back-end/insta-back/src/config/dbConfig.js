@@ -13,5 +13,6 @@ export default async function conectarAoBanco(stringConexao) {
     } catch (erro) {
         console.error('Falha ao conectar ao cluster do banco de dados. Erro: ', erro);
         process.exit();
+        //...
     }
 }
